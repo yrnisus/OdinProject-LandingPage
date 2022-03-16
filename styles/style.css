@@ -23,18 +23,26 @@ ul {
     list-style: none;
 }
 
-.hero-container {
+.hero {
     background-color: var(--hero-bg);
     width: 100%;
     height: 500px;
+}
+
+.hero-container {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    border: 1px solid red;
 }
 
 .header {
+    border: 1px solid red;
     display: flex;
-    margin: 15px 0;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: auto;
+    margin: 20px 15%;
     align-items: baseline;
 }
 
@@ -48,6 +56,14 @@ ul {
     color: var(--hero-second-text);
     display: flex;
     gap: 15px;
+    font-size: 18px;
+}
+
+.hero-lower {
+    display: flex;
+    margin: 0 15%;
+    gap: 30px;
+    justify-content: space-between;
 }
 
 .hero-main-text {
@@ -58,10 +74,26 @@ ul {
 
 .hero-second-text {
     color: var(--hero-second-text);
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.hero-left {
+    text-align: left;
+    width: 400px;
+    
 }
 
 .hero-button {
     background-color: var(--button-color);
     padding: 10px;
+    margin-top: 10px;
 }
 
+
+.hero-image {
+    width: 600px;
+    height: 250px;
+    background-color: gray;
+}
