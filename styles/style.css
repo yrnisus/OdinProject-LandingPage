@@ -31,14 +31,13 @@ ul {
 
 .hero-container {
     width: 80%;
+    height: 500px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .header {
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     width: auto;
@@ -61,9 +60,10 @@ ul {
 
 .hero-lower {
     display: flex;
-    margin: 0 15%;
+    margin: 75px 15%;
     gap: 30px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .hero-main-text {
@@ -75,7 +75,7 @@ ul {
 .hero-second-text {
     color: var(--hero-second-text);
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 15px;
 
 }
 
@@ -88,12 +88,23 @@ ul {
 .hero-button {
     background-color: var(--button-color);
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
+    color: var(--hero-main-text);
+    border-radius: 25px;
+    width: 150px;
+    border-style: none;
+    outline: none;
 }
 
 
 .hero-image {
     width: 600px;
     height: 250px;
-    background-color: gray;
+    background-color: #6D747D;
+    border-style: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--hero-second-text);
 }
