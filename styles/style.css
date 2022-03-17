@@ -11,7 +11,7 @@
     }
 
 html {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 html, body, p, ul {
@@ -34,7 +34,7 @@ ul {
 }
 
 .hero-container {
-    width: 80%;
+    width: 60%;
     height: 500px;
     margin: 0 auto;
     display: flex;
@@ -45,7 +45,7 @@ ul {
     display: flex;
     justify-content: space-between;
     width: auto;
-    margin: 20px 15%;
+    margin: 20px 0;
     align-items: baseline;
 }
 
@@ -64,10 +64,10 @@ ul {
 
 .hero-lower {
     display: flex;
-    margin: 75px 15%;
-    gap: 30px;
-    justify-content: space-between;
+    margin: 75px 0;
+    gap: 50px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .hero-main-text {
@@ -85,7 +85,7 @@ ul {
 
 .hero-left {
     text-align: left;
-    width: 400px;
+    width: 460px;
     
 }
 
@@ -104,8 +104,9 @@ ul {
 
 
 .hero-image {
-    width: 600px;
+    width: 580px;
     height: 250px;
+    font-size: 20px;
     background-color: #6D747D;
     border-style: none;
     outline: none;
@@ -235,3 +236,14 @@ ul {
     background-color: var(--cta-bg);
 }
 /* Footer section */
+
+.footer {
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    color: var(--hero-main-text);
+    background-color: var(--hero-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
